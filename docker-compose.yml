@@ -1,7 +1,6 @@
 version: '3'
 services:
   server:
-    # container_name: pr_1_server
     build: ./server
     restart: always
     volumes:
@@ -9,15 +8,6 @@ services:
     ports:
       - "8080:80"
   db:
-    # container_name: pr1_db
-    # image: mariadb
-    # restart: always
-    # ports:
-    #   - "3306:3306"
-    # volumes:
-    #   - ./server:/doker-entrypoint-initdb.d
-    # environment:
-    #   - MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=1
     image: mariadb:latest 
     restart: always 
     environment: 
