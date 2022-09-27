@@ -1,19 +1,30 @@
-/* внешние границы таблицы серого цвета толщиной 1px */
-table {
-    border: 1px solid grey;
-    margin-left: auto;
-    margin-right: auto;
+*{
+    text-align: center;
 }
-/* границы ячеек первого ряда таблицы */
-th {
-    border: 1px solid grey;
-    font-size: 250%;
+
+.links {
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
 }
-/* границы ячеек тела таблицы */
-td {
-    border: 1px solid grey;
-    font-size: 250%;
+
+h1{
+    margin-bottom:350px;
 }
-h1 {
-    text-align: center;	
+
+div {
+    height: 80vh;
+    width: 80vw;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+p, a, pre{
+    font-size: 30px;
+    color:black;
 }
