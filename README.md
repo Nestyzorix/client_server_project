@@ -1,1 +1,2 @@
-# Some practice with the server side of Internet resources on PHP
+# PHP practices
+Some practice with the server side of Internet resources
